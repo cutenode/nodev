@@ -6,42 +6,42 @@
             "methods": [ "GET" ],
             "route": "/api/data.json"
         },
-        "backendUri": "http://localhost:7071/api/getData"
+        "backendUri": "https://nodev.azurewebsites.net/api/getData"
     },
     "latest.json": {
         "matchCondition": {
             "methods": [ "GET" ],
             "route": "/api/latest.json"
         },
-        "backendUri": "http://localhost:7071/api/getLatest"
+        "backendUri": "https://nodev.azurewebsites.net/api/getLatest"
     },
     "local.json": {
         "matchCondition": {
             "methods": [ "GET" ],
             "route": "/api/local.json"
         },
-        "backendUri": "http://localhost:7071/api/getLocal"
+        "backendUri": "https://nodev.azurewebsites.net/api/getLocal"
     },
     "new.json": {
         "matchCondition": {
             "methods": [ "GET" ],
             "route": "/api/new.json"
         },
-        "backendUri": "http://localhost:7071/api/getNew"
+        "backendUri": "https://nodev.azurewebsites.net/api/getNew"
     },
     "updates.json": {
         "matchCondition": {
             "methods": [ "GET" ],
             "route": "/api/updates.json"
         },
-        "backendUri": "http://localhost:7071/api/getUpdates"
+        "backendUri": "https://nodev.azurewebsites.net/api/getUpdates"
     },
     "updates.json": {
         "matchCondition": {
             "methods": [ "GET" ],
             "route": "/api/hits.json"
         },
-        "backendUri": "http://localhost:7071/api/getHits"
+        "backendUri": "https://nodev.azurewebsites.net/api/getHits"
     }
   }
 }
