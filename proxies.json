@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "data.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/data.json"
+        },
+        "backendUri": "http://localhost:7071/api/getData"
+    },
+    "latest.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/latest.json"
+        },
+        "backendUri": "http://localhost:7071/api/getLatest"
+    },
+    "local.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/local.json"
+        },
+        "backendUri": "http://localhost:7071/api/getLocal"
+    },
+    "new.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/new.json"
+        },
+        "backendUri": "http://localhost:7071/api/getNew"
+    },
+    "updates.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/updates.json"
+        },
+        "backendUri": "http://localhost:7071/api/getUpdates"
+    },
+    "updates.json": {
+        "matchCondition": {
+            "methods": [ "GET" ],
+            "route": "/api/hits.json"
+        },
+        "backendUri": "http://localhost:7071/api/getHits"
+    }
+  }
+}

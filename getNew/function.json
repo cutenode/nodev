@@ -1,0 +1,39 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "newjson",
+      "type": "blob",
+      "direction": "in",
+      "path": "versions/new.json",
+      "connection": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING"
+    },
+    {
+      "name": "hitsjsonIn",
+      "type": "blob",
+      "path": "versions/hits.json",
+      "connection": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
+      "direction": "in"
+    },
+    {
+      "name": "hitsjsonOut",
+      "type": "blob",
+      "path": "versions/hits.json",
+      "connection": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
+      "direction": "out"
+    }
+  ]
+}

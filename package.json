@@ -1,0 +1,18 @@
+{
+  "name": "nodev",
+  "description": "A Node.js API for surfacing pre-built Node.js versions data from NodeKitten, using Azure Function.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "versions",
+    "data",
+    "json"
+  ],
+  "author": "Tierney Cyren",
+  "license": "MIT"
+}
